@@ -1,354 +1,847 @@
-body {
-    background-color: #111111;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+body {
+  background-color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
 
+.animi {
+  animation: fly 4s ease-in-out infinite;
+}
 
+@keyframes fly {
+  0% {
+    transform: translate(-50%, -46%);
+  }
 
+  50% {
+    transform: translate(-50%, -54%);
+  }
+
+  100% {
+    transform: translate(-50%, -46%);
+  }
+}
 
 /* THIS IS FOR IPHONE 5 */
 @media only screen and (min-device-width: 320px) and (max-device-width: 567px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 
-    /* THIS IS FOR THE TOP ICON */
-    .icon {
-        width: 12%;
-        height: 10%;
-        padding-left: 10px;
-    }
+  /* THIS IS FOR THE TOP ICON */
+  .icon {
+    width: 12%;
+    height: 10%;
+    padding-left: 10px;
+  }
 
-    .icon-text {
-        font-size: 24px;
-    }
+  .mage {
+    width: 30% !important;
+  }
 
-    /* ######################## */
+  .duce {
+    width: 21% !important;
+  }
 
+  .numImage {
+    width: 25% !important;
+    padding-top: 17px !important;
+    margin: auto !important;
+  }
 
-    /* THIS IS FOR THE FIRST SECTION */
-    .hero {
-        padding-top: 0 !important;
-        margin-top: 0 !important;
-    }
-
-    .heroImages {
-        padding-top: 126px;
-    }
-
-    .bigImage {
-        height: 1000px !important;
-    }
-
-    .mon {
-        font-size: 20px !important;
-    }
-
-    .i1 {
-        width: 16%;
-    }
-
-    .sec2 {
-        top: 1700px !important;
-        left: 0 !important;
-        margin-left: 20px !important;
-    }
-
-    .sec3 {
-        top: 2200px !important;
-        left: 0 !important;
-        margin-left: 40px !important;
-    }
-
-    .image3 {
-        width: 50% !important;
-    }
-
-    .coming {
-        font-size: 14px;
-    }
-
-    .i3 {
-        width: 25% !important;
-        padding-top: 8px !important;
-    }
-
-    .input1 {
-        font-size: 10px;
-    }
-
-    .font3 {
-        font-size: 19px !important;
-    }
-
-    .now1 {
-        top: 10px !important;
-        width: 70% !important;
-    }
-
-    .no1 {
-        margin-bottom: 20px;
-    }
-
-    .image1 {
-        width: 45% !important;
-        margin-left: 50px !important;
-    }
-
-    .baby {
-        top: 30px;
-        left: 120px !important;
-    }
-
-    /* ############################### */
+  .texti {
+    font-size: 20px !important;
+    text-align: center !important;
+  }
 
 
-    /* THIS IS FOR THE SECOND SECTION */
-    .smallBall2 {
-        right: 22px !important;
-    }
+  .icon-text {
+    font-size: 24px;
+  }
 
-    .smallball3 {
-        left: 0 !important;
-    }
+  /* ######################## */
 
-    .numText3 {
-        left: 0 !important;
-        top: 100px !important;
-    }
+  /* THIS IS FOR THE FIRST SECTION */
+  .hero {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
 
-    /* .image3 {
+  .heroImages {
+    padding-top: 126px;
+  }
+
+  .bigImage {
+    height: 1000px !important;
+  }
+
+  .sec5 {
+    top: 3450px !important;
+    left: 30px !important;
+  }
+
+  .mon {
+    font-size: 20px !important;
+  }
+
+  .i1 {
+    width: 16%;
+  }
+
+  .i4 {
+    width: 28% !important;
+  }
+
+  .i5 {
+    width: 30% !important;
+    padding-top: 16px;
+  }
+
+  .i6 {
+    width: 25% !important;
+  }
+
+  .image4 {
+    width: 50% !important;
+  }
+
+  .font5 {
+    font-size: 19px !important;
+  }
+
+  .sec2 {
+    top: 1700px !important;
+    left: 0 !important;
+    margin-left: 20px !important;
+  }
+
+  .sec6 {
+    top: 4000px !important;
+    left: 30px !important;
+  }
+
+  .pic {
+    left: 110px !important;
+  }
+
+  .baby2Iphone {
+    top: 140px !important;
+    right: 10px !important;
+  }
+
+  .baby3Iphone {
+    top: 140px !important;
+    left: 49px !important;
+  }
+
+  .image5 {
+    width: 60% !important;
+  }
+
+  .image6 {
+    width: 60% !important;
+  }
+
+  .sec3 {
+    top: 2200px !important;
+    left: 0 !important;
+    margin-left: 40px !important;
+  }
+
+  .image3 {
+    width: 50% !important;
+  }
+
+  .coming {
+    font-size: 14px;
+  }
+
+  .i3 {
+    width: 25% !important;
+    padding-top: 8px !important;
+  }
+
+  .input1 {
+    font-size: 10px;
+  }
+
+  .font3 {
+    font-size: 19px !important;
+  }
+
+  .now1 {
+    top: 140px !important;
+    width: 70% !important;
+  }
+
+  .no1 {
+    margin-bottom: 20px;
+  }
+
+  .image1 {
+    width: 45% !important;
+    margin-left: 50px !important;
+  }
+
+  .baby {
+    top: 60px;
+    left: 145px !important;
+  }
+
+  /* ############################### */
+
+  /* THIS IS FOR THE SECOND SECTION */
+  .smallBall2 {
+    right: 22px !important;
+  }
+
+  .smallball3 {
+    left: 0 !important;
+  }
+
+  .numText3 {
+    left: 0 !important;
+    top: 100px !important;
+  }
+
+  /* .image3 {
         width: 58% !important;
         margin-left: 70px !important;
         top: 840px !important;
     } */
-
 }
-
-
-
 
 /* THIS IS FOR PIXEL 2 DEVICE */
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    .baby {
-        left: 157px !important;
-    }
+  .baby {
+    left: 157px !important;
+  }
 
-    .icon-text {
-        font-size: 24px !important;
-    }
+  .icon-text {
+    font-size: 24px !important;
+  }
 
-    .smallBall2 {
-        right: 20px !important;
-    }
+  .smallBall2 {
+    right: 20px !important;
+  }
 
-    .image1 {
-        width: 35% !important;
-        position: relative;
-    }
+  .image1 {
+    width: 35% !important;
+    position: relative;
+  }
 
-    .text1 {
-        padding-bottom: 0 !important;
-    }
+  .text1 {
+    padding-bottom: 0 !important;
+  }
 }
-
-
-
 
 /* THIS IS FOR MOTO G4 DEVICE */
 @media only screen and (min-device-width: 360px) and (max-device-width: 639px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    .baby {
-        left: 137px !important;
-    }
+  .baby {
+    left: 137px !important;
+  }
 
-    .sec2 {
-        top: 1800px !important;
-        margin-left: 18px !important;
-        left: 0 !important;
-    }
+  .sec2 {
+    top: 1800px !important;
+    margin-left: 18px !important;
+    left: 0 !important;
+  }
 
-    .icon {
-        width: 14%;
-        height: 12%;
-        padding-left: 10px;
-    }
+  .icon {
+    width: 14%;
+    height: 12%;
+    padding-left: 10px;
+  }
 
-    .icon-text {
-        font-size: 24px;
-    }
+  .icon-text {
+    font-size: 24px;
+  }
 
-    .image1 {
-        width: 60% !important;
-        margin-left: 73px !important;
-        margin-top: 70px !important;
-    }
+  .image1 {
+    width: 60% !important;
+    margin-left: 73px !important;
+    margin-top: 70px !important;
+  }
 
-    .text1 {
-        margin-bottom: 60px;
-    }
+  .text1 {
+    margin-bottom: 60px;
+  }
 }
 
 /* THIS IS FOR IPHONE 6/7/8 */
 @media only screen and (min-device-width: 375px) and (max-device-width: 666px) {
-    .no1 {
-        margin-bottom: 0 !important;
-    }
+  .no1 {
+    margin-bottom: 0 !important;
+  }
 
-    .text1 {
-        padding-bottom: 24px !important;
-    }
+  .text1 {
+    padding-bottom: 24px !important;
+  }
 }
-
-
-
 
 /* THIS IS FOR IPAD DEVICES */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
-    .now1 {
-        position: absolute;
-        top: 50px;
-        left: 65px;
-        width: 69% !important;
-    }
+  .now1 {
+    position: absolute;
+    top: 50px;
+    left: 65px;
+    width: 69% !important;
+  }
 
-    .hero {
-        padding-top: 0 !important;
-        margin-top: 0 !important;
-    }
+  .hero {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
 
-    .baby1 {
-        top: 30px !important;
-    }
+  .baby1 {
+    top: 30px !important;
+  }
 
-    .karan {
-        margin-top: 30px;
-        width: 23% !important;
-    }
+  .karan {
+    margin-top: 30px;
+    width: 23% !important;
+  }
 
-    .babiest {
-        margin-top: 30px;
-        width: 23% !important;
-        margin-left: 30px;
-    }
+  .babiest {
+    margin-top: 30px;
+    width: 23% !important;
+    margin-left: 30px;
+  }
 
-    .baby {
-        margin-top: 30px;
-        width: 30% !important;
-        bottom: 490px !important;
-        left: 126px !important;
-        margin-right: 30px !important;
-        padding-right: 36px !important;
-    }
+  .baby {
+    margin-top: 30px;
+    width: 30% !important;
+    bottom: 490px !important;
+    left: 126px !important;
+    margin-right: 30px !important;
+    padding-right: 36px !important;
+  }
 
-    .image1 {
-        width: 400px !important;
+  .image1 {
+    width: 400px !important;
+  }
 
-    }
+  .dd {
+    display: none;
+  }
 
-    .dd {
-        display: none;
-    }
-
-    .font1 {
-        font-size: 20px !important;
-    }
+  .font1 {
+    font-size: 20px !important;
+  }
 }
 
 /* THIS IS FOR IPAD PRO */
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1365px) {
-    .numText3 {
-        left: 0 !important;
-    }
+  .numText3 {
+    left: 0 !important;
+  }
 
-    .image1 {
-        width: 260px !important;
-    }
+  .image1 {
+    width: 260px !important;
+  }
 }
-
-
 
 /* THIS IS FOR IPHONE X */
 @media only screen and (min-device-width: 375px) and (max-device-width: 811px) {
-    .image1 {
-        width: 40% !important;
-        margin-left: 80px !important;
-        margin-top: 0 !important;
-    }
+  .image1 {
+    width: 40% !important;
+    margin-left: 80px !important;
+    margin-top: 0 !important;
+    top: 100px !important;
+  }
 
-    .smallBall2 {
-        right: 40px !important;
-    }
+  .sec1 {
+    top: 20px !important;
+  }
 
-    .smallball3 {
-        left: 0 !important;
-    }
+  .baby1Iphone {
+    top: 100px !important;
+    left: 170px !important;
+  }
 
-    .sec3 {
-        top: 2200px !important;
-        width: 70% !important;
-        padding-top: 30px !important;
-    }
+  .baby2Iphone {
+    left: 290px !important;
+    top: 200px !important;
+  }
 
-    .sec4 {
-        top: 2900px !important;
-    }
+  .baby3Iphone {
+    left: 50px !important;
+    top: 200px !important;
+  }
 
-    .image4 {
-        width: 40% !important;
-        margin-left: 70px !important;
-    }
+  .pic {
+    top: 230px !important;
+    left: 130px !important;
+  }
 
-    .i4 {
-        width: 30% !important;
-    }
+  .smallBall2 {
+    right: 40px !important;
+  }
 
-    .i3 {
-        width: 30% !important;
-    }
+  .smallball3 {
+    left: 0 !important;
+  }
 
-    .font3 {
-        font-size: 20px !important;
-    }
+  .sec3 {
+    top: 2150px !important;
+    width: 70% !important;
+    padding-top: 30px !important;
+  }
 
-    .mon {
-        font-size: 20px !important;
-    }
+  .sec4 {
+    top: 3170px !important;
+  }
 
-    .i1 {
-        width: 16%;
-    }
+  .image4 {
+    width: 45% !important;
+    margin-left: 70px !important;
+    position: absolute !important;
+    bottom: -179px !important;
+    left: 40px !important;
+  }
 
-    .i2 {
-        width: 20%;
-        margin-left: 18px;
-    }
+  .i4 {
+    width: 23% !important;
+    position: absolute;
+    top: -4px !important;
+  }
 
-    .bigImage {
-        height: 1000px !important;
-    }
+  .i5 {
+    width: 28% !important;
+    padding-top: 20px !important;
+    left: 0 !important;
+  }
 
-    .sec2 {
-        top: 1700px !important;
-        left: 0 !important;
-    }
+  .image6 {
+    width: 40% !important;
+  }
 
-    .text1 {
-        margin-bottom: 90px !important;
-    }
+  .i3 {
+    width: 25% !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    position: absolute;
+    top: 348px;
+    left: -5px;
+  }
 
-    .image2 {
-        width: 58% !important;
-        top: -40px !important;
-        margin-left: 70px !important;
-    }
+  .font3 {
+    font-size: 20px !important;
+    padding-left: 0 !important;
+    position: absolute;
+    padding-bottom: 90px !important;
+    top: 77px !important;
+  }
 
-    .numText3 {
-        left: 0 !important;
-        top: 580px !important;
-    }
+  .font5 {
+    font-size: 25px !important;
+    padding-left: 0 !important;
+    left: 50px;
+    position: absolute !important;
+  }
 
-    .image3 {
-        width: 58% !important;
-        margin-left: 70px !important;
-        top: 840px !important;
-    }
+  .sec6 {
+    top: 4100px !important;
+    left: 47px !important;
+  }
+
+  .mon {
+    font-size: 20px !important;
+    bottom: 200px !important;
+    position: absolute !important;
+    left: 30px !important;
+  }
+
+  .mon2 {
+    font-size: 20px !important;
+    bottom: -14px !important;
+    position: absolute !important;
+    left: 30px !important;
+  }
+
+  .i1 {
+    width: 12%;
+    position: absolute;
+    left: 20px !important;
+    top: -29px;
+  }
+
+  .i2 {
+    top: 210px !important;
+    position: absolute;
+    width: 15%;
+    margin-left: 13px;
+  }
+
+  .bigImage {
+    height: 1000px !important;
+  }
+
+  .i6 {
+    width: 25% !important;
+    padding-top: 20px !important;
+    margin-right: 10px !important;
+  }
+
+  .sec2 {
+    top: 1700px !important;
+    left: 0 !important;
+  }
+
+  .sec5 {
+    top: 3550px !important;
+    left: 47px !important;
+  }
+
+  .image5 {
+    margin-left: 38px !important;
+    width: 45% !important;
+    margin-left: 70px !important;
+    position: absolute !important;
+    bottom: -179px !important;
+    left: 40px !important;
+    top: 79px !important;
+  }
+
+  .text1 {
+    margin-bottom: 90px !important;
+  }
+
+  .image2 {
+    width: 38% !important;
+    margin-top: 80px !important;
+    top: 90px !important;
+    margin-left: 80px !important;
+  }
+
+  .numText3 {
+    left: 0 !important;
+    top: 580px !important;
+  }
+
+  .image3 {
+    width: 58% !important;
+    position: absolute;
+    margin-left: 70px !important;
+    top: 240px !important;
+  }
 }
+
+/* THIS IS FOR THE BUBBLE ANIMATION */
+
+body {
+  color: black;
+  font: 100% Lato, Arial, Sans Serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#background-wrap {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+
+  100% {
+    margin-top: -100%;
+  }
+}
+
+@-moz-keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+
+  100% {
+    margin-top: -100%;
+  }
+}
+
+@keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+
+  100% {
+    margin-top: -100%;
+  }
+}
+
+@-webkit-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: 50px;
+  }
+}
+
+@-moz-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: 50px;
+  }
+}
+
+@keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+
+  100% {
+    margin-left: 50px;
+  }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+  -webkit-animation: animateBubble 25s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 25s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 25s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+
+  left: -5%;
+  top: 5%;
+
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.x2 {
+  -webkit-animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+
+  left: 5%;
+  top: 80%;
+
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  transform: scale(0.4);
+}
+
+.x3 {
+  -webkit-animation: animateBubble 28s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 28s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 28s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+
+  left: 10%;
+  top: 40%;
+
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  transform: scale(0.7);
+}
+
+.x4 {
+  -webkit-animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+  animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+
+  left: 20%;
+  top: 0;
+
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+.x5 {
+  -webkit-animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+
+  left: 30%;
+  top: 50%;
+
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.x6 {
+  -webkit-animation: animateBubble 21s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 21s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 21s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+
+  left: 50%;
+  top: 0;
+
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.x7 {
+  -webkit-animation: animateBubble 20s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 20s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 20s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+
+  left: 65%;
+  top: 70%;
+
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  transform: scale(0.4);
+}
+
+.x8 {
+  -webkit-animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+  animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+
+  left: 80%;
+  top: 10%;
+
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+.x9 {
+  -webkit-animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+
+  left: 90%;
+  top: 50%;
+
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.x10 {
+  -webkit-animation: animateBubble 26s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 26s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 26s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+
+  left: 80%;
+  top: 80%;
+
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.bubble {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
+    inset 0px 10px 30px 5px rgba(253, 123, 8, 1);
+  -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
+    inset 0px 10px 30px 5px rgba(253, 123, 8, 1);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
+    inset 0px 10px 30px 5px rgba(253, 123, 8, 1);
+
+  height: 100px;
+  position: absolute;
+  width: 100px;
+}
+
+.bubble:after {
+  background: -moz-radial-gradient(center,
+      ellipse cover,
+      rgba(253, 123, 8, 0.5) 0%,
+      rgba(255, 255, 255, 0) 70%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial,
+      center center,
+      0px,
+      center center,
+      100%,
+      color-stop(0%, rgba(253, 123, 8, 0.5)),
+      color-stop(70%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center,
+      ellipse cover,
+      rgba(253, 123, 8, 0.5) 0%,
+      rgba(255, 255, 255, 0) 70%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center,
+      ellipse cover,
+      rgba(253, 123, 8, 0.5) 0%,
+      rgba(255, 255, 255, 0) 70%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center,
+      ellipse cover,
+      rgba(253, 123, 8, 0.5) 0%,
+      rgba(255, 255, 255, 0) 70%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center,
+      rgba(253, 123, 8, 0.5) 0%,
+      rgba(255, 255, 255, 0) 70%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80ffffff', endColorstr='#00ffffff', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: inset 0 20px 30px rgba(253, 123, 8, 0.3);
+  -moz-box-shadow: inset 0 20px 30px rgba(253, 123, 8, 0.3);
+  box-shadow: inset 0 20px 30px rgba(253, 123, 8, 0.3);
+
+  content: "";
+  height: 80px;
+  left: 10px;
+  position: absolute;
+  width: 80px;
+}
+
+/* ################################# */
