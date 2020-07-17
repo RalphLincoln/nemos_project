@@ -214,6 +214,15 @@ body {
     } */
 }
 
+
+@media only screen and (min-device-width: 450px) and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .ii2 {
+    margin-left: 20px !important;
+    text-align: center;
+  }
+}
+
+
 /* THIS IS FOR PIXEL 2 DEVICE */
 @media only screen and (min-device-width: 411px) and (max-device-width: 823px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .baby {

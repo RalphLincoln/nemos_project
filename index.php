@@ -81,14 +81,14 @@ require_once 'includes/header.php';
         <h2 class="text-center font-weight-bold mt-5 pt-5 text-white">How <span style="color: #FD7B08;">Nemos</span>
             works
         </h2>
-        <div class="row mx-auto text-center mt-5">
+        <div class="row mx-auto pb-5 text-center mt-5">
             <div class="col-md-5">
                 <img style="width: 70%;" src="./images/iPhone 11 Pro Outline.png" class="img-fluid mt-4 text-right" alt="">
             </div>
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
                     <img src="./images/1.png" class="img-fluid mr-5 mage numImage" alt="">
-                    <h2 style="letter-spacing: 1px;" class="font-weight-bold texti text-left text-white d-flex align-items-center pl-3">
+                    <h2 style="letter-spacing: 1px;" class="font-weight-bold texti text-left mx-auto text-white d-flex align-items-center pl-3">
                         Select Camera or
                         Gallery
                         to <br> Upload a Picture </h2>
@@ -99,12 +99,12 @@ require_once 'includes/header.php';
 
     <!-- THIS IS NUMBER TWO -->
     <section data-aos="fade-down" data-aos-duration="1000" class="">
-        <div class="container mt-5 pt-2">
+        <div class="container pb-5 mt-5 pt-2">
             <div class="row mx-auto text-center t-5">
                 <div class="col-md-7 d-flex align-items-center">
                     <div class="row">
                         <img src="./images/2.png" class="img-fluid mr-5 numImage" alt="">
-                        <h2 style="letter-spacing: 1px;" class="font-weight-bold texti text-white text-left d-flex align-items-center pl-3">Give
+                        <h2 style="letter-spacing: 1px;" class="font-weight-bold ii2 texti mx-auto text-white text-left d-flex align-items-center pl-3">Give
                             a
                             detailed
                             description <br> of your memory </h2>
@@ -126,7 +126,7 @@ require_once 'includes/header.php';
 
 <section data-aos="fade-down" data-aos-duration="1000" class="">
     <div class="container mt-5 pt-2">
-        <div class="row mx-auto text-center mt-5">
+        <div class="row mx-auto pb-5 text-center mt-5">
             <div class="col-md-5">
                 <img src="./images/iPhone 11 Pro Outline (2).png" style="width: 70%;" class=" img-fluid mt-4
                             text-right" alt="">
@@ -134,7 +134,7 @@ require_once 'includes/header.php';
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
                     <img src="./images/3.png" class="img-fluid mr-3 numImage" alt="">
-                    <h2 style="letter-spacing: 1px;" class="font-weight-bold texti text-white d-flex text-left align-items-center pl-3">Scroll
+                    <h2 style="letter-spacing: 1px;" class="font-weight-bold texti mx-auto text-white d-flex text-left align-items-center pl-3">Scroll
                         through
                         the
                         pictures <br> generated and select the edit <br> or save button</h2>
@@ -153,11 +153,11 @@ require_once 'includes/header.php';
 <div style="background-image: url(./images/Rectangle.png); height: fit-content; background-repeat: no-repeat;">
     <section data-aos-duration="1000" data-aos="fade-left" class="">
         <div class="container mt-5 pt-4">
-            <div class="row mx-auto text-center t-5">
+            <div class="row pb-5 mx-auto text-center t-5">
                 <div class="col-md-7 d-flex align-items-center">
                     <div class="row">
                         <img src="./images/4.png" class="img-fluid mr-3 numImage" alt="">
-                        <h2 style="letter-spacing: 1px;" class="font-weight-bold texti text-white text-left d-flex align-items-center pl-3">
+                        <h2 style="letter-spacing: 1px;" class="font-weight-bold mx-auto texti text-white text-left d-flex align-items-center pl-3">
                             Explore the different edit <br> options you have till you are <br> satisfied with your
                             picture
                         </h2>
@@ -172,14 +172,14 @@ require_once 'includes/header.php';
     </section>
 
     <div data-aos="fade-up-right" data-aos-duration="1000" class="container mt-5 pt-4">
-        <div class="row mx-auto text-center mt-5">
+        <div class="row mx-auto pb-5 text-center mt-5">
             <div class="col-md-5">
                 <img style="width: 70%;" src="./images/iPhone 11 Pro Outline (4).png" class="img-fluid mt-4 text-right" alt="">
             </div>
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
                     <img src="./images/5.png" class="img-fluid mr-5 numImage" alt="">
-                    <h2 style="letter-spacing: 1px;" class="font-weight-bold text-left texti text-white d-flex align-items-center pl-3">
+                    <h2 style="letter-spacing: 1px;" class="font-weight-bold ii2 text-left mx-auto texti text-white d-flex align-items-center pl-3">
                         Click on save to save your <br> picture </h2>
                 </div>
             </div>
@@ -205,7 +205,7 @@ require_once 'includes/header.php';
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
                     <img src="./images/6.png" class="img-fluid mr-3 numImage" alt="">
-                    <h2 style="letter-spacing: 1px;" class="font-weight-bold text-white texti text-left d-flex align-items-center pl-3">
+                    <h2 style="letter-spacing: 1px;" class="font-weight-bold text-white mx-auto texti text-left d-flex align-items-center pl-3">
                         Share your picture to friends <br> and family on your social <br> media
                     </h2>
                 </div>
