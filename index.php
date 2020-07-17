@@ -17,7 +17,7 @@ require_once 'includes/header.php';
 
 
 
-<section class="mb-5">
+<section class="ml-4 mb-5">
     <div class=" container">
         <div class="row">
             <div class="col-md-6 noPadding mt-3 text-left hero text-white pt-5">
