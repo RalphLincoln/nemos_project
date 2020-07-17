@@ -83,7 +83,9 @@ require_once 'includes/header.php';
         </h2>
         <div class="row mx-auto pb-5 text-center mt-5">
             <div class="col-md-5">
-                <img style="width: 70%;" src="./images/iPhone 11 Pro Outline.png" class="img-fluid mt-4 text-right" alt="">
+                <a href="./images/iPhone 11 Pro Outline.png" data-lightbox="image-1">
+                    <img style="width: 70%;" src="./images/iPhone 11 Pro Outline.png" class="img-fluid mt-4 text-right" alt="">
+                </a>
             </div>
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
@@ -110,8 +112,10 @@ require_once 'includes/header.php';
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <img src="./images/iPhone 11 Pro Outline (1).png" style="width: 70%;" class=" img-fluid mt-4
+                    <a href="./images/iPhone 11 Pro Outline (1).png" data-lightbox="image-1">
+                        <img src="./images/iPhone 11 Pro Outline (1).png" style="width: 70%;" class=" img-fluid mt-4
                             text-right" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -127,8 +131,10 @@ require_once 'includes/header.php';
     <div class="container mt-5 pt-2">
         <div class="row mx-auto pb-5 text-center mt-5">
             <div class="col-md-5">
-                <img src="./images/iPhone 11 Pro Outline (2).png" style="width: 70%;" class=" img-fluid mt-4
+                <a href="./images/iPhone 11 Pro Outline (2).png" data-lightbox="image-1">
+                    <img src="./images/iPhone 11 Pro Outline (2).png" style="width: 70%;" class=" img-fluid mt-4
                             text-right" alt="">
+                </a>
             </div>
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
@@ -163,8 +169,10 @@ require_once 'includes/header.php';
                     </div>
                 </div>
                 <div data-aos="fade-up-right" data-aos-duration="1000" class="col-md-5">
-                    <img src="./images/iPhone 11 Pro Outline (3).png" style="width: 70%;" class=" img-fluid mt-4
+                    <a href="./images/iPhone 11 Pro Outline (3).png" data-lightbox="image-1">
+                        <img src="./images/iPhone 11 Pro Outline (3).png" style="width: 70%;" class=" img-fluid mt-4
                             text-right" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -173,7 +181,9 @@ require_once 'includes/header.php';
     <div data-aos="fade-up-right" data-aos-duration="1000" class="container mt-5 pt-4">
         <div class="row mx-auto pb-5 text-center mt-5">
             <div class="col-md-5">
-                <img style="width: 70%;" src="./images/iPhone 11 Pro Outline (4).png" class="img-fluid mt-4 text-right" alt="">
+                <a href="./images/iPhone 11 Pro Outline (4).png" data-lightbox="image-1">
+                    <img style="width: 70%;" src="./images/iPhone 11 Pro Outline (4).png" class="img-fluid mt-4 text-right" alt="">
+                </a>
             </div>
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
@@ -211,8 +221,10 @@ require_once 'includes/header.php';
                 </div>
             </div>
             <div class="col-md-5">
-                <img src="./images/iPhone 11 Pro Outline (5).png" style="width: 70%;" class=" img-fluid mt-4
+                <a href="./images/iPhone 11 Pro Outline (5).png" data-lightbox="image-1">
+                    <img src="./images/iPhone 11 Pro Outline (5).png" style="width: 70%;" class=" img-fluid mt-4
                             text-right" alt="">
+                </a>
             </div>
         </div>
     </div>

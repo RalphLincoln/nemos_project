@@ -15,6 +15,9 @@
     <!-- This CSS link is for my GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
+    <!-- This CSS link is for my LIGHT-BOX -->
+    <link href="./css/lightbox.css" rel="stylesheet" />
+
     <!-- This CSS link is for my AOS Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 

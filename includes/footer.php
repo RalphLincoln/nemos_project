@@ -10,6 +10,10 @@
 <!-- This SCRIPT is for the AOS Animation -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+<!-- This SCRIPT is for LIGHT-BOX -->
+<script src="./js/lightbox.js"></script>
+
 <script>
     // This is for the AOS animation
     AOS.init();
