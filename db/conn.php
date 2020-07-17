@@ -3,7 +3,7 @@
 $email = $_POST['email'];
 
 // DATABASE CONNECT
-$conn = new mysqli('127.0.0.1', 'root', '', 'original');
+$conn = new mysqli('db4free.net', 'nemos1', 'chiamaka1', 'nemos_project');
 if ($conn->connect_error) {
     die('Connection Failed : ' . $conn->connect_error);
 } else {
@@ -11,7 +11,11 @@ if ($conn->connect_error) {
         values(?)");
     $stmt->bind_param("s", $email);
     $stmt->execute();
-    echo "success";
+    echo '
+    <script>
+        swal("Well Done", "You have subscribe to our app. You will be notified when the app is live!!", "success");
+    </script>
+    ';
     $stmt->close();
     $conn->close();
 }

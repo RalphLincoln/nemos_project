@@ -20,7 +20,7 @@ require_once 'includes/header.php';
 <section class="mb-5">
     <div class=" container">
         <div class="row">
-            <div class="col-md-6 noPadding mt-5 text-left hero text-white pt-5">
+            <div class="col-md-6 noPadding mt-3 text-left hero text-white pt-5">
                 <h1 style="font-size: 40px;" class="font-weight-bold">Bring Your Uncaptured</h1>
                 <h1 style="font-size: 40px;" class="font-weight-bold">Memories to Life</h1>
                 <p class="pt-3">This App generates pictures of you as a baby, child or a young adult based on your
@@ -36,13 +36,17 @@ require_once 'includes/header.php';
                 <form action="db/conn.php" method="post">
                     <div class="container">
                         <div class="row">
-                            <input type="email" name="email" style="width: 70%;" placeholder="Enter your Email Address" class="form-control input1 rounded-pill mr-2" id="">
-                            <button style="background-color: #FD7B08;" class="btn input1 rounded-pill" type="submit">Notify Me</button>
+                            <input type="email" name="email" id='email' style="width: 70%;" placeholder="Enter your Email Address" class="form-control input1 rounded-pill mr-2" id="">
+                            <button style="background-color: #FD7B08;" id='submit' class="btn input1 font-weight-bold rounded-pill" type="submit">Notify Me</button>
+                            <div class="form-group pt-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">I WILL LIKE TO BE A BETA TESTER</label>
+                            </div>
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="col-md-6 mx-auto text-center heroImages">
+            <div class="col-md-6 text-center heroImages">
                 <img style="width: 18%; left: 16px; " src="./images/Karan-Brar-during-the-world-premiere-of-Disney-s-Maleficent-in-2014 1.png" class="animi baby3Iphone position-absolute karan img-fluid" alt="">
                 <img style="width: 18%; right: 128px; bottom: 370px; left: 200px;" src="./images/Baby 1.png" class="img-fluid baby1Iphone animi baby position-absolute" alt="">
                 <img style="width: 18%; right: 50px;" src="./images/Babiest 1.png" class="animi img-fluid baby2Iphone babiest position-absolute" alt="">
@@ -73,17 +77,17 @@ require_once 'includes/header.php';
 <!-- THIS IS NUMBER ONE AND TWO SECTION -->
 
 <div style="background-image: url(./images/Rectangle.png); height: fit-content; background-repeat: no-repeat;">
-    <div class="container mt-5 pt-2">
+    <div data-aos="fade-up-right" data-aos-duration="1000" class="container mt-5 pt-2">
         <h2 class="text-center font-weight-bold mt-5 pt-5 text-white">How <span style="color: #FD7B08;">Nemos</span>
             works
         </h2>
         <div class="row mx-auto text-center mt-5">
             <div class="col-md-5">
-                <img data-aos="fade-up-right" data-aos-duration="3000" style="width: 70%;" src="./images/iPhone 11 Pro Outline.png" class="img-fluid mt-4 text-right" alt="">
+                <img style="width: 70%;" src="./images/iPhone 11 Pro Outline.png" class="img-fluid mt-4 text-right" alt="">
             </div>
-            <div data-aos-duration="3000" data-aos="fade-left" class="col-md-7 d-flex align-items-center">
+            <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
-                    <img src="./images/1.png" class="img-fluid mage numImage" alt="">
+                    <img src="./images/1.png" class="img-fluid mr-5 mage numImage" alt="">
                     <h2 style="letter-spacing: 1px;" class="font-weight-bold texti text-left text-white d-flex align-items-center pl-3">
                         Select Camera or
                         Gallery
@@ -94,19 +98,19 @@ require_once 'includes/header.php';
     </div>
 
     <!-- THIS IS NUMBER TWO -->
-    <section class="">
+    <section data-aos="fade-down" data-aos-duration="1000" class="">
         <div class="container mt-5 pt-2">
             <div class="row mx-auto text-center t-5">
-                <div data-aos="fade-down" data-aos-duration="3000" class="col-md-7 d-flex align-items-center">
+                <div class="col-md-7 d-flex align-items-center">
                     <div class="row">
-                        <img src="./images/2.png" class="img-fluid numImage" alt="">
+                        <img src="./images/2.png" class="img-fluid mr-5 numImage" alt="">
                         <h2 style="letter-spacing: 1px;" class="font-weight-bold texti text-white text-left d-flex align-items-center pl-3">Give
                             a
                             detailed
                             description <br> of your memory </h2>
                     </div>
                 </div>
-                <div data-aos="fade-up-right" data-aos-duration="3000" class="col-md-5">
+                <div class="col-md-5">
                     <img src="./images/iPhone 11 Pro Outline (1).png" style="width: 70%;" class=" img-fluid mt-4
                             text-right" alt="">
                 </div>
@@ -120,17 +124,16 @@ require_once 'includes/header.php';
 
 <!-- THIS IS NUMBER THREE -->
 
-<section class="">
+<section data-aos="fade-down" data-aos-duration="1000" class="">
     <div class="container mt-5 pt-2">
         <div class="row mx-auto text-center mt-5">
-
-            <div data-aos="fade-up-right" data-aos-duration="3000" class="col-md-5">
+            <div class="col-md-5">
                 <img src="./images/iPhone 11 Pro Outline (2).png" style="width: 70%;" class=" img-fluid mt-4
                             text-right" alt="">
             </div>
-            <div data-aos="fade-down" data-aos-duration="3000" class="col-md-7 d-flex align-items-center">
+            <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
-                    <img src="./images/3.png" class="img-fluid numImage" alt="">
+                    <img src="./images/3.png" class="img-fluid mr-3 numImage" alt="">
                     <h2 style="letter-spacing: 1px;" class="font-weight-bold texti text-white d-flex text-left align-items-center pl-3">Scroll
                         through
                         the
@@ -148,19 +151,19 @@ require_once 'includes/header.php';
 <!-- THIS IS NUMBER FOUR AND FIVE SECTION -->
 
 <div style="background-image: url(./images/Rectangle.png); height: fit-content; background-repeat: no-repeat;">
-    <section class="">
+    <section data-aos-duration="1000" data-aos="fade-left" class="">
         <div class="container mt-5 pt-4">
             <div class="row mx-auto text-center t-5">
-                <div data-aos="fade-down" data-aos-duration="3000" class="col-md-7 d-flex align-items-center">
+                <div class="col-md-7 d-flex align-items-center">
                     <div class="row">
-                        <img src="./images/4.png" class="img-fluid numImage" alt="">
+                        <img src="./images/4.png" class="img-fluid mr-3 numImage" alt="">
                         <h2 style="letter-spacing: 1px;" class="font-weight-bold texti text-white text-left d-flex align-items-center pl-3">
                             Explore the different edit <br> options you have till you are <br> satisfied with your
                             picture
                         </h2>
                     </div>
                 </div>
-                <div data-aos="fade-up-right" data-aos-duration="3000" class="col-md-5">
+                <div data-aos="fade-up-right" data-aos-duration="1000" class="col-md-5">
                     <img src="./images/iPhone 11 Pro Outline (3).png" style="width: 70%;" class=" img-fluid mt-4
                             text-right" alt="">
                 </div>
@@ -168,14 +171,14 @@ require_once 'includes/header.php';
         </div>
     </section>
 
-    <div class="container mt-5 pt-4">
+    <div data-aos="fade-up-right" data-aos-duration="1000" class="container mt-5 pt-4">
         <div class="row mx-auto text-center mt-5">
             <div class="col-md-5">
-                <img data-aos="fade-up-right" data-aos-duration="3000" style="width: 70%;" src="./images/iPhone 11 Pro Outline (4).png" class="img-fluid mt-4 text-right" alt="">
+                <img style="width: 70%;" src="./images/iPhone 11 Pro Outline (4).png" class="img-fluid mt-4 text-right" alt="">
             </div>
-            <div data-aos-duration="3000" data-aos="fade-left" class="col-md-7 d-flex align-items-center">
+            <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
-                    <img src="./images/5.png" class="img-fluid numImage" alt="">
+                    <img src="./images/5.png" class="img-fluid mr-5 numImage" alt="">
                     <h2 style="letter-spacing: 1px;" class="font-weight-bold text-left texti text-white d-flex align-items-center pl-3">
                         Click on save to save your <br> picture </h2>
                 </div>
@@ -196,18 +199,18 @@ require_once 'includes/header.php';
 
 <!-- THIS IS NUMBER SIX -->
 
-<section class="">
+<section data-aos="fade-down" data-aos-duration="1000" class="">
     <div class="container mt-5 pt-2">
         <div class="row mx-auto text-center t-5">
-            <div data-aos="fade-down" data-aos-duration="3000" class="col-md-7 d-flex align-items-center">
+            <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
-                    <img src="./images/6.png" class="img-fluid numImage" alt="">
+                    <img src="./images/6.png" class="img-fluid mr-3 numImage" alt="">
                     <h2 style="letter-spacing: 1px;" class="font-weight-bold text-white texti text-left d-flex align-items-center pl-3">
                         Share your picture to friends <br> and family on your social <br> media
                     </h2>
                 </div>
             </div>
-            <div data-aos="fade-up-right" data-aos-duration="3000" class="col-md-5">
+            <div class="col-md-5">
                 <img src="./images/iPhone 11 Pro Outline (5).png" style="width: 70%;" class=" img-fluid mt-4
                             text-right" alt="">
             </div>
@@ -231,7 +234,7 @@ require_once 'includes/header.php';
             <form method="post" action="db/conn.php">
                 <div class="row pt-3">
                     <div class="text-right ml-auto" style="width: 60%;">
-                        <div class="form-froup">
+                        <div class="mr-4 form-froup">
                             <input class="form-control rounded-pill" placeholder="Enter your Email Addres" type="email">
                         </div>
                     </div>
