@@ -13,18 +13,6 @@
 <script>
     // This is for the AOS animation
     AOS.init();
-
-    // THIS IS FOR THE SUBMIT ALERT
-    $("#submit").click(function() {
-
-        let email = $('#email').val();
-
-        if (email == '') {
-            swal("Field can't be empty", "Please fill the form", "error");
-        } else {
-            swal("Well Done", "You have subscribe to our app. You'll be notified when the app is live!!", "success");
-        }
-    })
 </script>
 </body>
 

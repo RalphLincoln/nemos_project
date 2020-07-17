@@ -11,11 +11,7 @@ if ($conn->connect_error) {
         values(?)");
     $stmt->bind_param("s", $email);
     $stmt->execute();
-    echo '
-    <script>
-        swal("Well Done", "You have subscribe to our app. You will be notified when the app is live!!", "success");
-    </script>
-    ';
+    echo "<h1>You have successfully subscribe for this service, You'll be notified as soon as the app is live!!!</h1>";
     $stmt->close();
     $conn->close();
 }
