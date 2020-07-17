@@ -107,7 +107,7 @@ require_once 'includes/header.php';
                         <h2 style="letter-spacing: 1px;" class="font-weight-bold ii2 texti mx-auto text-white text-left d-flex align-items-center pl-3">Give
                             a
                             detailed
-                            description <br> of your memory </h2>
+                            description of <br> your memory </h2>
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -180,7 +180,7 @@ require_once 'includes/header.php';
                 <div class="row">
                     <img src="./images/5.png" class="img-fluid mr-5 numImage" alt="">
                     <h2 style="letter-spacing: 1px;" class="font-weight-bold ii2 text-left mx-auto texti text-white d-flex align-items-center pl-3">
-                        Click on save to save your <br> picture </h2>
+                        Click save to save your picture </h2>
                 </div>
             </div>
         </div>
