@@ -87,8 +87,8 @@ require_once 'includes/header.php';
             </div>
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
-                    <img src="./images/1.png" class="img-fluid mr-5 mage numImage" alt="">
-                    <h2 style="letter-spacing: 1px;" class="font-weight-bold texti text-left mx-auto text-white d-flex align-items-center pl-3">
+                    <img src="./images/1.png" class="img-fluid mr-3 mage numImage" alt="">
+                    <h2 style="letter-spacing: 1px; font-size: 29px;" class="font-weight-bold texti text-left mx-auto text-white d-flex align-items-center pl-3">
                         Select Camera or
                         Gallery
                         to <br> Upload a Picture </h2>
@@ -104,10 +104,9 @@ require_once 'includes/header.php';
                 <div class="col-md-7 d-flex align-items-center">
                     <div class="row">
                         <img src="./images/2.png" class="img-fluid mr-5 numImage" alt="">
-                        <h2 style="letter-spacing: 1px;" class="font-weight-bold ii2 texti mx-auto text-white text-left d-flex align-items-center pl-3">Give
-                            a
-                            detailed
-                            description of <br> your memory </h2>
+                        <h2 style="letter-spacing: 1px; font-size: 29px;" class="font-weight-bold mx-auto texti text-white text-left d-flex align-items-center pl-3">
+                            Give a detailed description of <br> your memory
+                        </h2>
                     </div>
                 </div>
                 <div class="col-md-5">
@@ -134,7 +133,7 @@ require_once 'includes/header.php';
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
                     <img src="./images/3.png" class="img-fluid mr-3 numImage" alt="">
-                    <h2 style="letter-spacing: 1px;" class="font-weight-bold texti mx-auto text-white d-flex text-left align-items-center pl-3">Scroll
+                    <h2 style="letter-spacing: 1px; font-size: 29px;" class="font-weight-bold texti mx-auto text-white d-flex text-left align-items-center pl-3">Scroll
                         through
                         the
                         pictures <br> generated and select the edit <br> or save button</h2>
@@ -157,7 +156,7 @@ require_once 'includes/header.php';
                 <div class="col-md-7 d-flex align-items-center">
                     <div class="row">
                         <img src="./images/4.png" class="img-fluid mr-3 numImage" alt="">
-                        <h2 style="letter-spacing: 1px;" class="font-weight-bold mx-auto texti text-white text-left d-flex align-items-center pl-3">
+                        <h2 style="letter-spacing: 1px; font-size: 29px;" class="font-weight-bold mx-auto texti text-white text-left d-flex align-items-center pl-3">
                             Explore the different edit <br> options you have till you are <br> satisfied with your
                             picture
                         </h2>
@@ -178,9 +177,10 @@ require_once 'includes/header.php';
             </div>
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
-                    <img src="./images/5.png" class="img-fluid mr-5 numImage" alt="">
-                    <h2 style="letter-spacing: 1px;" class="font-weight-bold ii2 text-left mx-auto texti text-white d-flex align-items-center pl-3">
-                        Click save to save your picture </h2>
+                    <img src="./images/5.png" class="img-fluid mr-3 numImage" alt="">
+                    <h2 style="letter-spacing: 1px; font-size: 29px;" class="font-weight-bold mx-auto texti text-white text-left d-flex align-items-center pl-3">
+                        Click save to save your picture
+                    </h2>
                 </div>
             </div>
         </div>
@@ -205,7 +205,7 @@ require_once 'includes/header.php';
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
                     <img src="./images/6.png" class="img-fluid mr-3 numImage" alt="">
-                    <h2 style="letter-spacing: 1px;" class="font-weight-bold text-white mx-auto texti text-left d-flex align-items-center pl-3">
+                    <h2 style="letter-spacing: 1px; font-size: 29px;" class="font-weight-bold text-white mx-auto texti text-left d-flex align-items-center pl-3">
                         Share your picture to friends <br> and family on your social <br> media
                     </h2>
                 </div>
