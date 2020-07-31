@@ -102,7 +102,13 @@ require_once 'includes/header.php';
     <!-- THIS IS NUMBER TWO -->
     <section data-aos="fade-down" data-aos-duration="1000" class="">
         <div class="container pb-5 mt-5 pt-2">
-            <div class="row mx-auto text-center t-5">
+            <div class="row mx-auto d-flex flex-row-reverse text-center t-5">
+                <div class="col-md-5">
+                    <a href="./images/iPhone 11 Pro Outline (1).png" data-lightbox="image-1">
+                        <img src="./images/iPhone 11 Pro Outline (1).png" style="width: 70%;" class=" img-fluid mt-4
+                            text-right" alt="">
+                    </a>
+                </div>
                 <div class="col-md-7 d-flex align-items-center">
                     <div class="row">
                         <img src="./images/2.png" class="img-fluid mr-5 numImage" alt="">
@@ -110,12 +116,6 @@ require_once 'includes/header.php';
                             Give a detailed description of <br> your memory
                         </h2>
                     </div>
-                </div>
-                <div class="col-md-5">
-                    <a href="./images/iPhone 11 Pro Outline (1).png" data-lightbox="image-1">
-                        <img src="./images/iPhone 11 Pro Outline (1).png" style="width: 70%;" class=" img-fluid mt-4
-                            text-right" alt="">
-                    </a>
                 </div>
             </div>
         </div>
@@ -158,7 +158,13 @@ require_once 'includes/header.php';
 <div style="background-image: url(./images/Rectangle.png); height: fit-content; background-repeat: no-repeat;">
     <section data-aos-duration="1000" data-aos="fade-left" class="">
         <div class="container mt-5 pt-4">
-            <div class="row pb-5 mx-auto text-center t-5">
+            <div class="row pb-5 mx-auto d-flex flex-row-reverse text-center t-5">
+                <div data-aos="fade-up-right" data-aos-duration="1000" class="col-md-5">
+                    <a href="./images/iPhone 11 Pro Outline (3).png" data-lightbox="image-1">
+                        <img src="./images/iPhone 11 Pro Outline (3).png" style="width: 70%;" class=" img-fluid mt-4
+                            text-right" alt="">
+                    </a>
+                </div>
                 <div class="col-md-7 d-flex align-items-center">
                     <div class="row">
                         <img src="./images/4.png" class="img-fluid mr-3 numImage" alt="">
@@ -167,12 +173,6 @@ require_once 'includes/header.php';
                             picture
                         </h2>
                     </div>
-                </div>
-                <div data-aos="fade-up-right" data-aos-duration="1000" class="col-md-5">
-                    <a href="./images/iPhone 11 Pro Outline (3).png" data-lightbox="image-1">
-                        <img src="./images/iPhone 11 Pro Outline (3).png" style="width: 70%;" class=" img-fluid mt-4
-                            text-right" alt="">
-                    </a>
                 </div>
             </div>
         </div>
@@ -211,7 +211,13 @@ require_once 'includes/header.php';
 
 <section data-aos="fade-down" data-aos-duration="1000" class="">
     <div class="container mt-5 pt-2">
-        <div class="row mx-auto text-center t-5">
+        <div class="row mx-auto d-flex flex-row-reverse text-center t-5">
+            <div class="col-md-5">
+                <a href="./images/iPhone 11 Pro Outline (5).png" data-lightbox="image-1">
+                    <img src="./images/iPhone 11 Pro Outline (5).png" style="width: 70%;" class=" img-fluid mt-4
+                            text-right" alt="">
+                </a>
+            </div>
             <div class="col-md-7 d-flex align-items-center">
                 <div class="row">
                     <img src="./images/6.png" class="img-fluid mr-3 numImage" alt="">
@@ -219,12 +225,6 @@ require_once 'includes/header.php';
                         Share your picture to friends <br> and family on your social <br> media
                     </h2>
                 </div>
-            </div>
-            <div class="col-md-5">
-                <a href="./images/iPhone 11 Pro Outline (5).png" data-lightbox="image-1">
-                    <img src="./images/iPhone 11 Pro Outline (5).png" style="width: 70%;" class=" img-fluid mt-4
-                            text-right" alt="">
-                </a>
             </div>
         </div>
     </div>
